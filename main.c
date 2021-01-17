@@ -12,13 +12,12 @@
 int main(void)
 {
     int i, j, k;
-    int m, n;
+    int n;
     scanf("%d", &n);
 
   	// Complete the code to print the pattern.
     
     scanf("%d", &n);
-    m = 2 * n + 1;
     for (i = 1; i <= n; i++)
     {
         for (j = n; j > n - i; j--)
