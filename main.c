@@ -6,9 +6,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//
+// Add two numbers and return end result
+//
+int solveMeFirst(int a, int b)
+{
+    return a + b;
+} // end of function solveMeFirst
+
 // main is where program execution starts
 int main(void)
 {
-    printf("%s", "Lets do some HackerRank stuff");
+    int num1, num2;
+    scanf("%d %d", &num1, &num2);
+    int sum; 
+    sum = solveMeFirst(num1, num2);
+    printf("%d", sum);
+
     return EXIT_SUCCESS;
 } // end of function main
