@@ -16,8 +16,8 @@ void calculateTheMaximum(int n, int k)
     // Write your code here.
     int mxAnd = 0, mxOr = 0, mxXor = 0;
 
-    for(int i = 1; i <= n; i++){
-
+    for(int i = 1; i <= n; i++)
+    {
         for(int j = i + 1; j <= n; j++)
         {
             if(mxAnd < (i & j) && (i & j) < k)
