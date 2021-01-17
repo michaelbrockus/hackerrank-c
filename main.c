@@ -49,7 +49,7 @@ void miniMaxSum(int arr_count, int* arr)
         } // end else
 
     } // end for
-    printf("%llu %llu\n", (sum - max), (sum - min));
+    printf("%u %u\n", (unsigned int)(sum - max), (unsigned int)(sum - min));
 } // end of function miniMaxSum
 
 // main is where program execution starts
