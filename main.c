@@ -4,6 +4,8 @@
 // gmail: <michaelbrockus@gmail.com>
 //
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
 #include <stdlib.h>
 
 // main is where program execution starts
