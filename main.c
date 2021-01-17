@@ -133,6 +133,9 @@ char* readline()
     return data;
 } // end of function readline
 
+//
+// Utility from HackerRank
+//
 char* ltrim(char* str)
 {
     if (!str)
