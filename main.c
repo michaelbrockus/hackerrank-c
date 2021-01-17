@@ -137,7 +137,7 @@ char* ltrim(char* str)
 {
     if (!str)
     {
-        return '\0';
+        return NULL;
     } // end if
 
     if (!*str)
@@ -160,7 +160,7 @@ char* rtrim(char* str)
 {
     if (!str)
     {
-        return '\0';
+        return NULL;
     } // end if
 
     if (!*str)
